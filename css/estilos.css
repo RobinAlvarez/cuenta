@@ -1,0 +1,14 @@
+.marco {
+    width: 400px;
+    height: 550px;
+    border: 2px solid #555555; /* Borde de 2 píxeles sólido de color negro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px #adadad80; /* Sombra */
+    padding: 20px; /* Espacio interno */
+    margin: 20px; /* Margen externo */
+    transition: box-shadow 0.3s ease; /* Transición suave del sombreado */
+}
+
+.marco:hover {
+    box-shadow: 0 0 15px #5f5f5f; /* Sombra más pronunciada al pasar el mouse */
+}
